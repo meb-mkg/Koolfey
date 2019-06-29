@@ -1,0 +1,27 @@
+{
+    "name": "koolfey/koolfey",
+    "description": "Single password centralized authentication system for your application",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "koolfey",
+            "email": "koolfey@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+            "psr-4": {
+                "Koolfey\\Koolfey\\": "src/"
+            }
+        },
+        "extra": {
+        "laravel": {
+            "providers": [
+                "Koolfey\\Koolfey\\KoolfeyServiceProvider"
+            ]
+        }
+    }
+
+}
